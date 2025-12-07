@@ -98,10 +98,10 @@
   cursor: pointer;
   padding: 4px;
 }
+
 .user-icon svg{
   display: block;
 }
-
 
     /* Mobile */
     @media (max-width: 752px){
