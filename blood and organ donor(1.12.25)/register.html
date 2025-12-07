@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  
+    <!------------register form---------------------->
+     <div class="form-wrap" aria-label="Donor Signup">
+    <div class="header">
+      <h1>Donor Signup</h1>
+    </div>
+
+    <form action="#" method="post" novalidate>
+      <div class="field">
+        <label for="name">Name<span class="req">*</span></label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required />
+      </div>
+
+      <div class="field">
+        <label for="age">Age<span class="req">*</span></label>
+        <input id="age" name="age" type="number" min="0" placeholder="Enter your age" required />
+      </div>
+ <div class="field">
+        <label for="gender">Gender<span class="req">*</span></label>
+        <select id="gender" name="gender" required>
+          <option value="" selected disabled>Select gender</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+          <option>Prefer not to say</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="father-name">Father Name<span class="req">*</span></label>
+        <input id="father-name" name="father_name" type="text" placeholder="Enter father name" required />
+      </div>
+ <div class="field">
+        <label for="mobile">Mobile<span class="req">*</span></label>
+        <input id="mobile" name="mobile" type="tel" placeholder="Enter mobile number" required />
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Enter email (optional)" />
+      </div>
+
+      <div class="field">
+        <label for="state">State</label>
+        <input id="state" name="state" type="text" placeholder="Enter state" />
+      </div>
+
+      <div class="field">
+        <label for="district">District<span class="req">*</span></label>
+        <input id="district" name="district" type="text" placeholder="Enter district" required />
+      </div>
+
+      <div class="field full">
+        <label for="address">Address<span class="req">*</span></label>
+        <textarea id="address" name="address" placeholder="Enter full address" required></textarea>
+      </div>
+ <div class="field">
+        <label for="pincode">Pin-Code<span class="req">*</span></label>
+        <input id="pincode" name="pincode" type="text" inputmode="numeric" placeholder="Enter pin code" required />
+      </div>
+
+      <div class="captcha-wrap">
+        <div class="captcha-code" aria-hidden="true">ASWQr6g</div>
+        <div class="captcha-input">
+          <label for="captcha">captcha</label>
+          <input id="captcha" name="captcha" type="text" placeholder="Enter the code above" />
+        </div>
+      </div>
+
+      <div class="actions">
+        <button type="submit" class="btn">Sign Up</button>
+      </div>
+    </form>
+  </div>
+
+
+   <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid" aria-label="Site footer navigation">
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h3>Quick links</h3>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Looking for Blood</a></li>
+            <li><a href="#">Blood Availability</a></li>
+            <li><a href="#">Blood Bank Directory</a></li>
+          </ul>
+        </div>
+     <!-- Services -->
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="#">Want to Donate Blood</a></li>
+            <li><a href="#">Blood Donation Camps</a></li>
+            <li><a href="#">Donor Login</a></li>
+            <li><a href="#">About Blood Donation</a></li>
+            <li><a href="#">Register VBD Camp</a></li>
+          </ul>
+        </div>
+
+        <!-- Other Links -->
+        <div class="footer-col">
+          <h3>Other links</h3>
+          <ul class="footer-links">
+            <li><a href="#">Blood Bank Login</a></li>
+            <li><a href="#">Add your Blood Bank</a></li>
+          </ul>
+        </div>
+        <!-- Contact Info -->
+        <div class="footer-col">
+          <h3>Contact info</h3>
+          <div class="contact-item">
+            <span class="label">Address:</span>
+        <span>8-2-686/DR/9, Banjara Hills, Hyderabad, Telangana 500034</span>
+          </div>
+          <div class="contact-item">
+            <span class="label">Phone:</span>
+            <span>+91-869-011-0011</span>
+          </div>
+          <div class="contact-item">
+            <span class="label">Email:</span>
+            <span>bookingorgans@gmail.com</span>
+          </div>
+        </div>
+      </div>
+<hr>
+      <div class="footer-bottom">
+        <div class="copyright">© 2008–2025 Organs booking service. All Rights Reserved</div>
+        <div class="social" aria-label="Social media">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="twitter"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
