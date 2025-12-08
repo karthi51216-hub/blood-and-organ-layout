@@ -24,9 +24,10 @@
       max-width: 1100px;
       margin: 0 auto;
       padding: 10px 10px;
-      display: flex;
-      align-items: center;
+      display: grid;
+     justify-content: space-between;
       gap: 10px;
+      flex-wrap: nowrap;
     }
  /* Left: logo */
     .brand{
@@ -54,6 +55,8 @@
       flex: 1; 
       list-style: none;
       padding: 0;
+    
+   
     }
  .menu a{
       color:white;
@@ -111,7 +114,8 @@
     
       }
       .menu{
-        flex-wrap: nowrap;
+ 
+     flex-wrap: nowrap;
         order:2;
         width: 100%;
       }
@@ -130,7 +134,11 @@
 
       }
     }
-
+@media(min-width:1024){
+  nau ul{
+    flex-direction: row;
+  }
+}
 
      /* Footer */
     footer {
@@ -240,11 +248,11 @@
     :root{
     --bg:#ffffff;
     --text:#1a1a1a;
-    --muted:#6b7280;    /* gray-500 */
-    --border:#e5e7eb;   /* gray-200 */
-    --red:#e11d48;      /* rose-600 */
-    --red-ink:#b91c1c;  /* red-700 */
-    --input:#f9fafb;    /* gray-50 */
+    --muted:#6b7280;   
+    --border:#e5e7eb;  
+    --red:#e11d48;     
+    --red-ink:#b91c1c;  
+    --input:#f9fafb;   
   }
 
   body{
@@ -276,6 +284,8 @@
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.2px;
+   
+
    
   }
 
@@ -341,6 +351,7 @@
     height:40px;
     background:#fff;
 }
+
   .toggle button{
     flex:1 1 auto;
     padding: 0 18px;

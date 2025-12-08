@@ -17,6 +17,7 @@
       background: var(--bg);
       color: var(--text);
       line-height: 1.45;
+      height: 100%;
     }
 
     /* Layout */
@@ -25,7 +26,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 24px;
+   
     }
  .wrap {
       display: flex;
@@ -33,6 +34,7 @@
       max-width: 1100px;
       width: 100%;
       align-items: stretch;
+      margin: auto;
     }
     .left {
       flex: 1 1 58%;
@@ -73,7 +75,7 @@
       font-size: 28px;
     margin: 1rem 0 ;
       margin: 20px 10px;
-
+      
      
     }
     .subtitle {
@@ -115,7 +117,7 @@
 
     /* Buttons */
     .btn {
-      display: inline-block;
+      display:inline-block;
       padding: 12px 16px;
       border-radius: 8px;
       border: none;
